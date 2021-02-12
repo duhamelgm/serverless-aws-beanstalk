@@ -1,7 +1,7 @@
 {
   "name": "serverless-aws-beanstalk",
-  "version": "0.0.2",
-  "description": "",
+  "version": "0.0.3",
+  "description": "A Serverless Plugin for beanstalk",
   "main": "lib/index.js",
   "scripts": {
     "build": "BABEL_ENV=production ./bin/build"
@@ -18,5 +18,9 @@
     "@babel/runtime": "^7.12.13",
     "archiver": "^5.2.0",
     "aws-sdk": "^2.842.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duhamelgm/serverless-aws-beanstalk.git"
   }
 }
