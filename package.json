@@ -1,0 +1,19 @@
+{
+  "name": "serverless-aws-beanstalk",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "BABEL_ENV=production ./bin/build"
+  },
+  "author": "Duhamel Guerrero",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16"
+  },
+  "dependencies": {
+    "archiver": "^5.2.0",
+    "aws-sdk": "^2.842.0"
+  }
+}
