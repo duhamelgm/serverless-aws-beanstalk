@@ -13,6 +13,7 @@
     "@babel/core": "^7.12.16"
   },
   "dependencies": {
+    "@babel/runtime": "^7.12.13",
     "archiver": "^5.2.0",
     "aws-sdk": "^2.842.0"
   }
