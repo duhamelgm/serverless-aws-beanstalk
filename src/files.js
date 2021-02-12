@@ -1,7 +1,7 @@
 import fs from "fs";
 import archiver from "archiver";
 
-const zipDirectory = (source, out) => {
+export const zipDirectory = (source, out) => {
   const archive = archiver("zip", { zlib: { level: 9 } });
   const stream = fs.createWriteStream(out);
 
